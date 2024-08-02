@@ -1,0 +1,1 @@
+// Section with Cards for sponsored animals + their status

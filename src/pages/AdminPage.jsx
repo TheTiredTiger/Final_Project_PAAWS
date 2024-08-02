@@ -1,0 +1,1 @@
+// Admin page for adding animals
