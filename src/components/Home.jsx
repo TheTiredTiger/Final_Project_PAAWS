@@ -1,0 +1,1 @@
+// landing page with welcoming + news carousel banner, and at least 3 highlights featuring "Our mission", "Success stories" & "Get to know our animals"

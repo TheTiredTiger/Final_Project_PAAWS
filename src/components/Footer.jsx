@@ -1,0 +1,1 @@
+// should include logo (?), possibly socials, FAQ, contact form, maybe languages(?)
