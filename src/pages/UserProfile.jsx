@@ -5,3 +5,5 @@
 // Add also section for adoptions with status (approved, pending, rejected)
 
 // In case we have time, add user milestones
+
+// Add money spent in sponserships and how much they'll spend this month

@@ -1,1 +1,0 @@
-// Section for adoption with status like approved, pending, rejected
