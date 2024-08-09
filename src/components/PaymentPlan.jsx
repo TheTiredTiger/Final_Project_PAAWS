@@ -11,7 +11,8 @@ function PaymentPlan() {
       <Card.Body>
         <Card.Title>Payment Plan</Card.Title>
         <Card.Text>
-          <h3>Some fun benefits for monthly plans (upon request)</h3>
+          <h6>(value)/(time)</h6>
+          <p>Some fun benefits for monthly plans (upon request)</p>
           <ul>
             <li>Playdates</li>
             <li>Walk your sponsored pet</li>

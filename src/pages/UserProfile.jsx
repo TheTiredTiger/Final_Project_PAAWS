@@ -7,3 +7,11 @@
 // In case we have time, add user milestones
 
 // Add money spent in sponserships and how much they'll spend this month
+
+function UserProfile() {
+    return ( <>
+    <p>user profile</p>
+    </> );
+}
+
+export default UserProfile;

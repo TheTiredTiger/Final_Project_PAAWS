@@ -3,23 +3,27 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 
 import NavigationBar from './components/NavigationBar'
 import Footer from './components/Footer'
-import { Login, Register } from './components/Authentication'
-import AdoptionForm from './components/AdoptionForm'
-import AnimalCard from './components/AnimalCard'
-import AdoptionCard from './components/AdoptionCard'
-import SponserCard from './components/SponserCard'
-import PaymentPlan from './components/PaymentPlan'
+import Home from './pages/Home'
+import UserProfile from './pages/UserProfile'
+import AnimalPage from './pages/AnimalPage'
+import AnimalSearch from './pages/AnimalSearch'
+import AdminPage from './pages/AdminPage'
+import AdoptionForm from './pages/AdoptionForm'
 
 function App() {
   return (
     <>
-    <NavigationBar />
-    <PaymentPlan />
-{/*     <BrowserRouter>
-    <Routes>
-      <Route path="/" element={<Home/>} />
-    </Routes>
-  </BrowserRouter> */}
+      <NavigationBar />
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Home/>} />
+          <Route path="/userprofile" element={<UserProfile/>} />
+          <Route path="/animalpage" element={<AnimalPage/>} />
+          <Route path="/search" element={<AnimalSearch/>} />
+          <Route path="/adoptionform" element={<AdoptionForm/>} />
+          <Route path="/adminpage" element={<AdminPage/>} />
+        </Routes>
+  </BrowserRouter>
     <Footer />
   </>
   )

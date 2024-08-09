@@ -3,3 +3,11 @@
 // Could maybe add a sort option above?
 
 // Should we have a cap for animals that are already being sponsored?
+
+function AnimalSearch() {
+    return ( <>
+        <p>search page to find animals to sponsor and/or adopt</p>
+    </> );
+}
+
+export default AnimalSearch;
